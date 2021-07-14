@@ -1,0 +1,49 @@
+.valo {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(0, 54, 170) rgba(161, 115, 28, 0.815));
+    padding: 20px 55px;
+    color: brown;
+    font-weight: 800;
+    border-radius: 4px;   
+}
+.player-part{
+    width: 1010px;
+    margin: 0 auto;
+    margin-top: 65px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    grid-auto-flow: 27px;
+}
+.player{
+    width: 300px;
+    height: 470px;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 30px gray;
+    margin-left: 25px;
+    padding: 10px;
+}
+.player-image img{
+    height: 260px;
+    width: 100%;
+}
+.player-info p{
+    font-size: 10px;
+    color: gray;
+    font-weight: 400px;
+}
+.player-info h2{
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+    footer p{
+        text-align: center;
+    }
+    .fab fa-instagram{
+        text-align: center;
+    }
+
+
